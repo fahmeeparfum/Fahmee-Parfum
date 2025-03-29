@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahmée Parfum</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f8f8f8; color: #333; }
+        header { background-color: #222; color: white; padding: 20px; text-align: center; font-size: 24px; }
+        .container { width: 80%; margin: auto; padding: 20px; }
+        .product { display: flex; justify-content: space-between; margin-bottom: 20px; background: white; padding: 15px; border-radius: 8px; }
+        .product img { width: 150px; border-radius: 8px; }
+        .product-info { flex: 1; margin-left: 20px; }
+        .contact { text-align: center; margin-top: 40px; }
+        .contact a { display: inline-block; padding: 10px 15px; margin: 10px; background: #222; color: white; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <header>Fahmée Parfum - عالمك من العطور</header>
+    <div class="container">
+        <h2>منتجاتنا</h2>
+        <div class="product">
+            <img src="perfume1.jpg" alt="عطر 1">
+            <div class="product-info">
+                <h3>عطر فرنسي فاخر</h3>
+                <p>مزيج رائع من الأخشاب والزهور يمنحك حضورًا لا يُنسى.</p>
+                <p><strong>السعر: 350 جنيه</strong></p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="perfume2.jpg" alt="عطر 2">
+            <div class="product-info">
+                <h3>عطر شرقي دافئ</h3>
+                <p>تجربة فريدة بنفحات العود والفانيليا الشرقية.</p>
+                <p><strong>السعر: 420 جنيه</strong></p>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <h2>تواصل معنا</h2>
+        <a href="https://wa.me/your-number" target="_blank">واتساب</a>
+        <a href="https://instagram.com/your-instagram" target="_blank">إنستجرام</a>
+    </div>
+</body>
+</html>
